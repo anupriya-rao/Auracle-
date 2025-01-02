@@ -1,0 +1,194 @@
+/* andada pro */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+ /* font-weight: <weight>;
+  font-style : normal;*/
+}
+body{
+    background-color:#0a0a0a;
+}
+nav ul {
+    display:flex ;
+    list-style-type: none;
+    height: 65px;;
+    background-color: rgb(20, 19, 19);
+    align-items: center;
+}
+p {
+    display: inline; /* Makes paragraphs inline */
+}
+.brand img {
+    height: 54px ;
+    padding: 0 10px ;
+    align-items: center;
+}
+nav ul li {
+    padding: 0 12px ;
+    color: azure;
+}
+nav ul li a {
+    text-decoration: none; /* Removes the underline */
+    color: white; /* Sets the text color to white */
+    padding: 5px 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: rgb(144, 130, 255); /* Optional: Changes color on hover for effect */
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 55vh;
+    background-color: #0a0a0a;
+    color: rgb(255, 240, 240);
+    font-family:'varela Round' , sans-serif;
+    display: flex;
+    margin: 25px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 20px;
+    /*background-image:url(bg.jpeg) ;*/
+}
+.bottom{
+    position: sticky;
+    height: 160px;
+    background-color: rgb(20, 19, 19);
+    color: aliceblue;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.icons{
+    margin: 16px;
+}
+.icons i {
+    cursor: pointer;
+    margin: 7px;
+}
+#myProgressBar{
+    text-align: center;
+    width: 80vw;
+    cursor: pointer;
+}
+.songitemcontainer {
+    margin-top: 50px;
+     width: 100%;
+}
+.songitem{
+height: 30px ;
+display: flex;
+color: black;
+background-color: aliceblue;
+padding: 1%;
+margin: 25px 0 ;
+
+align-items: center;
+border-radius: 10px;
+}
+.songitem img{ height: 30px;
+    margin: 0 3px;
+    border-radius: 30px;
+}
+.timestamp{
+    margin: 0 10px;
+    margin-left: auto;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    position:absolute;
+    left: 10vw;
+    font-size: 30px;
+}
+.songinfo img {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+.songName { align-items: left;
+    text-align: left;
+    margin-left: 10px;
+    flex-grow: 1;
+}
+#songCover {
+    position: absolute; /* Positioning the cover image */
+    right: 170px; /* Distance from the right edge of the page */
+    top: 50%; /* Align vertically to the center */
+    transform: translateY(-60%); /* Center the image perfectly */
+    width: 370px; 
+    height: 370px; 
+    object-fit: cover; /* Ensure the image fits perfectly within its box */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.heading {
+    text-align: center; /* Center align the heading */
+    font-size: 50px; /* Heading font size */
+    color:aliceblue ;
+    margin-top: 70px; 
+    padding-left: 440px;
+    display: flex;
+}
+
+.pabout {
+    font-size: 30px; /* Font size for the paragraph */
+    margin: 100px; /* Add space above and below the paragraph */
+    color: rgb(161, 179, 188);
+    text-align: center;
+    margin-top: 60px; 
+}
+
+.linkedin {
+    font-size: 25px; /* Font size for LinkedIn text */
+    margin-top: 10px; /* Space above LinkedIn section */
+    color: rgb(161, 179, 188);
+    text-align: center;
+}
+.logo img {
+    height: 54px ;
+    padding: 0 10px ;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.footer-section {
+    position: relative; /* Allows footer to be positioned properly */
+    width: 100%; /* Full width of footer */
+    background-color: rgb(20, 19, 19); /* Footer background color */
+    color: aliceblue; /* Text color for footer */
+    text-align: center; /* Center text in footer */
+    padding: 15px; /* Padding for footer */
+    margin-top: 145px; /* Pushes footer to bottom of page */
+}
